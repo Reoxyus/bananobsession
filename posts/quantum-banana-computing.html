@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kuantum Muz Hesaplamasının Sınırları — Muz Günlükleri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🍌%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="brand">
+        <span class="brand-icon">🍌</span>
+        <span>
+          Muz Günlükleri
+          <span class="brand-sub">Banana Diaries · est. 1987</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="../index.html">Yazılar</a>
+      </nav>
+    </div>
+  </header>
+
+  <article class="post-page">
+    <a class="post-back" href="../index.html">← Tüm yazılar</a>
+    <img class="post-hero" src="../assets/images/cosmic_001.jpg" alt="" />
+    <video class="post-video" controls autoplay loop muted playsinline poster="../assets/images/cosmic_001.jpg">
+      <source src="../assets/video/banana-quantum.mp4" type="video/mp4" />
+      Tarayıcınız video etiketini desteklemiyor.
+    </video>
+    <p class="video-caption">Yeşilden sarıya: Q-Banana operatörü gözlemci tarafından tetiklenir</p>
+    <h1>Kuantum Muz Hesaplamasının Sınırları</h1>
+    <p class="subtitle">Qubit Yerine Q-Banana</p>
+    <div class="post-meta">
+      <span>📅 12 Haziran 2026</span>
+      <span>✍️ Dr. Cavendish M. Uzoğlu</span>
+      <span class="tag" style="background: var(--banana-pale); padding: 2px 8px; border-radius: 2px;">Teknoloji</span>
+    </div>
+
+    <div class="post-body">
+      <p>Geçen ay IBM'in 1000-qubit'lik işlemcisini ziyaret ettim. Boston'a gittim, kravat taktım (sarı, elbette), ve laboratuvara adım attığımda — itiraf edeyim — biraz hayal kırıklığına uğradım. Çok <em>soğuk</em> bir yer. Her şey krom, cam, mavi LED. Neden mavi? Hiçbir yerde sarı yok. Neden bir yerde <em>sarı</em> olmasın?</p>
+
+      <p>Neyse, konuya gelelim. Kuantum hesaplama iki temel ilkeyle çalışır: <strong>süperpozisyon</strong> ve <strong>dolanıklık (entanglement)</strong>. Bir qubit |0⟩ ve |1⟩'in aynı anda var olabilir. Bir muz ise (olgunlaşmamış) yeşil ve (olgunlaşmış) sarının süperpozisyonundadır. Bu tesadüf değildir.</p>
+
+      <h2>Q-Banana Modeli</h2>
+
+      <p>Önerdiğim yeni modele <strong>Q-Banana</strong> adını veriyorum. Üç temel operatör:</p>
+
+      <table>
+        <thead>
+          <tr><th>Operatör</th><th>Sembol</th><th>Açıklama</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Peel</strong></td><td>P̂</td><td>Kabuk soyan operatör, dış durumu soyutlar</td></tr>
+          <tr><td><strong>Ripen</strong></td><td>R̂(t)</td><td>Zamana bağlı olgunlaşma, Schrödinger denklemine benzer</td></tr>
+          <tr><td><strong>Squash</strong></td><td>Q̂</td><td>Ölçüm operatörü, potansiyeli aktüelleştirir</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Süperpozisyon</h3>
+      <p>Olgunlaşmamış bir muz |yeşil⟩ + |sarı⟩'nın doğrusal kombinasyonudur. Gözlemci (yiyici) ölçüm yaptığında dalga fonksiyonu çöker ve muz ya <em>çiğ</em> ya da <em>tatlı</em> olur. Orta yol — Leibniz'in de onaylayacağı üzere — <em>muz-cehennemidir</em>.</p>
+
+      <h3>Dolanıklık</h3>
+      <p>Aynı salkımdaki iki muz birbirine dolanıktır. Biri soyulduğunda, diğeri de etik olarak soyulmayı <em>hak eder</em>. Bu, EPR paradoksunun doğal bir çözümüdür.</p>
+
+      <h2>Neden Önemli?</h2>
+
+      <p>Google Sycamore'ın 200 saniyede yaptığı hesabı klasik bir süper bilgisayar 10,000 yılda yapar. Bir Q-Banana işlemcisi ise — teorik olarak — <em>kahvaltı</em> süresinde aynı hesabı yapabilir. Daha da önemlisi, <strong>hata düzeltme</strong> doğal olarak gerçekleşir: Çürümüş muz, sistemdeki bit hatalarını otomatik olarak izole eder.</p>
+
+      <p>Tabii ki IBM bana <em>henüz</em> dönmedi. Ama bir gün dönecekler. O gün, yaka kartonumu <em>Muz Bilimi Baş Danışmanı</em> olarak değiştireceğim.</p>
+
+      <p>Son bir not: Schrödinger's Cat deneyinin orijinalinde, kedinin zehirli bir şişe yanında kapalı tutulduğunu hatırlayın. Kedinin yanında bir muz bulundursaydı, <em>kedinin durumu</em> muzun olgunlaşma durumuna dolanık olurdu. Schrödinger'in kediyi muzla değiştirmesi gerekirdi. Daha insani, daha sarı.</p>
+
+      <div class="post-signature">— Dr. C. M. U., atölye defterinden, Cambridge, 2026</div>
+    </div>
+  </article>
+
+  <div class="audio-dock">
+    <div>
+      <span class="now-playing">🎵 Muz Lofi</span>
+      <audio controls preload="none" src="../assets/music/banana-lofi.mp3"></audio>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>© 2026 Dr. Cavendish M. Uzoğlu · Muz Günlükleri · Tüm hakları saklıdır (özellikle muzlar).</p>
+  </footer>
+
+</body>
+</html>
