@@ -398,7 +398,25 @@ body {
   gap: 0.7rem;
   z-index: 50;
   font-size: 0.85rem;
-  max-width: 320px;
+  max-width: 380px;
+}
+
+.dock-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.dock-row > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dock-row > div:first-child {
+  padding-bottom: 0.4rem;
+  border-bottom: 1px dashed rgba(245, 211, 58, 0.3);
 }
 
 .audio-dock audio {
